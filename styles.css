@@ -313,3 +313,40 @@ opacity: 1;
   overflow: visible;
   vertical-align: -0.125em;
 }
+
+
+.contact-section {
+  padding: 6rem 0;
+  background-color: white;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.container-4 {
+  max-width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-4 h2 {
+  color: rgb(44, 62, 80);
+  font-size: 3rem;
+  line-height: 2.5rem;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.container-4 .svg-inline--fa,
+.container-4 .line {
+  color: rgb(44, 62, 80);
+}
+
+.container-4 .line {
+  background-color: rgb(44, 62, 80);
+}

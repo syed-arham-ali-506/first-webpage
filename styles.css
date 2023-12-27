@@ -14,6 +14,7 @@ li {
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 /* Basic styling for the navigation bar */
@@ -225,20 +226,90 @@ opacity: 0.2;
 opacity: 1;
 }
 
+.about-section {
+  padding: 6rem 0;
+  background-color: rgb(26, 188, 156);
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
 .container-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(26, 188, 156);;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1320px;
 }
 
 .container-3 h2 {
-  color: rgb(44, 62, 80);
+  color: white;
   font-size: 3rem;
   line-height: 2.5rem;
   width: 100%;
   text-align: center;
-  margin: 0;
-  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+}
+
+.row {
+  display: flex;
+  color: #fff;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.about-content {
+  width: 33.33333333%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+ 
+}
+
+.firstpara {
+  margin-left: auto;
+}
+
+.secondpara {
+  margin-right: auto;
+}
+
+.about-info {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  
+}
+
+.download-button {
+  display: flex;
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.download-button-link {
+  text-decoration: none;
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-width: 0.125rem;
+  border-color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.svg-fa-download {
+  margin-right: 0.5rem;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
 }
